@@ -51,6 +51,7 @@ ExportedObj/
 *.csproj
 *.unityproj
 *.sln
+*.slnx
 *.suo
 *.tmp
 *.user
@@ -106,15 +107,34 @@ InitTestScene*.unity*
 # Auto-generated scenes by play mode tests
 /[Aa]ssets/[Ii]nit[Tt]est[Ss]cene*.unity*
 
-# --- RPG-Clubhouse project additions ---
-# Creator Works MCP bridge state
-/.bantworks-mcp/
-# Banter/Creator SDK build output and logs
+# Auto-generated cache in Assets folder
+/[Aa]ssets/[Ss]ceneDependencyCache*
+
+# ---------------------------------------------------------------------------
+# Altspace / Creator SDK (Banter) project
+# ---------------------------------------------------------------------------
+# Built world and builder output. The world is rebuilt from the project and can
+# be 200-300 MB, which is over GitHub's 100 MB file limit. index.html (the other
+# WebRoot file) stays tracked.
+/[Aa]ssets/WebRoot/asset.world
+/[Aa]ssets/WebRoot/asset.world.meta
 /AssetBundles/
 /AssetCache/
 /BuildReport/
-# Bakery native bake/denoise binaries (~276 MB, licensed vendor files: reinstall Bakery instead of committing)
-/Assets/Editor/x64/
-/Assets/Editor/x64.meta
-# Local scratch
-*.pre-normalize.unity
+
+# Creator Works MCP bridge state (the bridge writes its own .gitignore too)
+/.bantworks-mcp/
+
+# Bakery native bake/denoise binaries (~276 MB, licensed vendor files):
+# reinstall Bakery instead of committing them. Bakery's scripts in /Assets/Bakery stay tracked.
+/[Aa]ssets/Editor/x64/
+/[Aa]ssets/Editor/x64.meta
+
+# ---------------------------------------------------------------------------
+# Editors and OS
+# ---------------------------------------------------------------------------
+.idea/
+.DS_Store
+Thumbs.db
+ehthumbs.db
+desktop.ini
