@@ -44,6 +44,21 @@
     "com.unity.modules.video": "1.0.0",
     "com.unity.modules.vr": "1.0.0",
     "com.unity.modules.wind": "1.0.0",
-    "com.unity.modules.xr": "1.0.0"
-  }
+    "com.unity.modules.xr": "1.0.0",
+    "com.sidequest.creator-sdk": "4.0.25"
+  },
+  "scopedRegistries": [
+    {
+      "name": "Greenfield-registry.sdq.st",
+      "url": "https://greenfield-registry.sdq.st",
+      "scopes": [
+        "com.sidequest.creator-sdk",
+        "com.basis.bundlemanagement",
+        "com.basis.common",
+        "com.basis.sdk",
+        "com.sidequest.ora",
+        "com.sidequest.thirdparty.bouncycastle"
+      ]
+    }
+  ]
 }

@@ -1,0 +1,257 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &7908126295796555298
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 622121420256252751}
+  - component: {fileID: 2765299135792121162}
+  m_Layer: 0
+  m_Name: RPGolfInvisiblePortal
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &622121420256252751
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7908126295796555298}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 8281682082970043311}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2765299135792121162
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7908126295796555298}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2c169dac1f7605144bae29ef306a3674, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  displayURLText: {fileID: 0}
+  whitelistRequirement: https://www.topgolfvr.com
+--- !u!1 &8281682082970043303
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8281682082970043311}
+  - component: {fileID: 8281682082970043308}
+  - component: {fileID: 8281682082970043309}
+  - component: {fileID: 8281682082970043306}
+  - component: {fileID: 8281682082970043307}
+  - component: {fileID: 8281682082970043304}
+  - component: {fileID: 8281682082970043305}
+  - component: {fileID: 8281682082970043302}
+  m_Layer: 0
+  m_Name: OpenURLDistance
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8281682082970043311
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8281682082970043303}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 2, z: 0.2}
+  m_Children: []
+  m_Father: {fileID: 622121420256252751}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!33 &8281682082970043308
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8281682082970043303}
+  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!23 &8281682082970043309
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8281682082970043303}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: 75bcc213d6e4d3047b7114c72c3d24c1, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!65 &8281682082970043306
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8281682082970043303}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &8281682082970043307
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8281682082970043303}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4d7063ec77ee74c4cab8492f7e4e9510, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  AnimationEffectVariable: {fileID: 11400000, guid: d7fc95e0aa404344e94b98b1d720d12f,
+    type: 2}
+  RECEIVE_Modules:
+  - {fileID: 8281682082970043304}
+  currentValue: 0
+  updateRate: 0
+  updateModulesOnValueChangeOnly: 1
+  weight: 1
+  inputSmoothing: 0
+  valueLimiter: 0
+  moreThan: 0
+  lessThan: 0
+  useValueRangeLimit: 0
+  valueRange: {x: 0, y: 0}
+  triggerThreshold: 0.9
+  moreThan_Trigger: 1
+  lessThan_Trigger: 0
+  whenNotEqualTo_Trigger: 0
+  notEqualToValue: 0
+  useTriggerValueRangeLimit: 0
+  triggerValueRange: {x: 0, y: 0}
+--- !u!114 &8281682082970043304
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8281682082970043303}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a98f11040d9828545a53941874985c42, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  custom_Name: 
+  isExpanded: 0
+  invokeWhenTrue: 1
+  eventWhenTrue:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 2765299135792121162}
+        m_MethodName: OpenURLFun
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: www.google.com
+          m_BoolArgument: 0
+        m_CallState: 2
+  invokeWhenFalse: 0
+  eventWhenFalse:
+    m_PersistentCalls:
+      m_Calls: []
+--- !u!114 &8281682082970043305
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8281682082970043303}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 186b3f542cc739f4db5c7d51f6229b8c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  SEND_Modules:
+  - {fileID: 8281682082970043302}
+  updateRate: 0
+--- !u!114 &8281682082970043302
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8281682082970043303}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e63a17d54dfbfdb49b5dc63150bf7f9d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  custom_Name: 
+  isExpanded: 0
+  AnimationEffectVariable: {fileID: 11400000, guid: d7fc95e0aa404344e94b98b1d720d12f,
+    type: 2}
+  from_PlayerPositon_X: 0
+  from_PlayerPositon_Y: 0
+  from_PlayerPositon_Z: 0
+  from_PlayerRotation_X: 0
+  from_PlayerRotation_Y: 0
+  from_PlayerRotation_Z: 0
+  from_PlayerCollision: 1
+  playerCollisionTarget: {fileID: 8281682082970043306}
+  from_PlayerDistance: 0
+  playerDistanceTarget: {fileID: 0}
+  from_PlayerHandDistance: 0
+  playerHandDistanceTarget: {fileID: 0}
+  from_PlayerTouch: 0
+  playerTouchCollider: {fileID: 0}
+  requireTriggerPress: 0
+  requireGrippedPress: 0

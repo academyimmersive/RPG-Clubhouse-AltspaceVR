@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 74b0553b872b76e42896bf4a2f8760c0, type: 3}
+  m_Name: PlayerDistnaceUrlTest 2
+  m_EditorClassIdentifier: 
+  Value: 0
+  UseMath: 0
+  useValueRangeLimiter: 0
+  valueRangeLimiter: {x: 0, y: 0}
+  valueIN: {fileID: 0}
+  modifyer: {fileID: 0}
+  manual_Input: 0
+  plus: 0
+  minus: 0
+  multiply: 0
+  divide: 0

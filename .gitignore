@@ -105,3 +105,16 @@ InitTestScene*.unity*
 
 # Auto-generated scenes by play mode tests
 /[Aa]ssets/[Ii]nit[Tt]est[Ss]cene*.unity*
+
+# --- RPG-Clubhouse project additions ---
+# Creator Works MCP bridge state
+/.bantworks-mcp/
+# Banter/Creator SDK build output and logs
+/AssetBundles/
+/AssetCache/
+/BuildReport/
+# Bakery native bake/denoise binaries (~276 MB, licensed vendor files: reinstall Bakery instead of committing)
+/Assets/Editor/x64/
+/Assets/Editor/x64.meta
+# Local scratch
+*.pre-normalize.unity

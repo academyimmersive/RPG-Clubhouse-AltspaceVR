@@ -1,0 +1,37 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6b89d8afa5286ea45b62d831362cea44, type: 3}
+  m_Name: OpenLegs_TableRetro_Chair_Med
+  m_EditorClassIdentifier: 
+  heightRange: {x: 1.65, y: 1.8}
+  flags: 0
+  handPose_Left: 0
+  handPose_Right: 0
+  m_head_Anchor_Pos: {x: 0.0000010109507, y: -0.009500027, z: -0.023000753}
+  m_head_Anchor_Rot: {x: -0, y: 0, z: 0}
+  m_pelvis_Anchor_Pos: {x: -0.005, y: 0.611, z: 0.032}
+  m_pelvis_Anchor_Rot: {x: -0, y: 0, z: 0}
+  m_chest_Anchor_Pos: {x: -0.007, y: 1.168, z: 0.704}
+  m_chest_Anchor_Rot: {x: -0, y: 0, z: 0}
+  m_rightFoot_Anchor_Pos: {x: 0.121, y: 0.176, z: 0.407}
+  m_rightFoot_Anchor_Rot: {x: 5.244802, y: 359.48257, z: 0.04967789}
+  m_leftFoot_Anchor_Pos: {x: -0.103, y: 0.18, z: 0.405}
+  m_leftFoot_Anchor_Rot: {x: 5.244802, y: 359.48257, z: 0.04967789}
+  m_rightHand_Anchor_Pos: {x: 0.1470008, y: 0.8299, z: 0.3769986}
+  m_rightHand_Anchor_Rot: {x: 13.828714, y: 352.2542, z: 85.711075}
+  m_leftHand_Anchor_Pos: {x: -0.21299988, y: 0.8329, z: 0.37500072}
+  m_leftHand_Anchor_Rot: {x: 14.499833, y: 4.569472, z: 274.44727}
+  m_rightElbow_Anchor_Pos: {x: 0.353, y: 0.741, z: -0.385}
+  m_leftElbow_Anchor_Pos: {x: -0.337, y: 0.797, z: -0.385}
+  m_rightKnee_Anchor_Pos: {x: 0.131, y: 0.669, z: 0.708}
+  m_leftKnee_Anchor_Pos: {x: -0.181, y: 0.669, z: 0.708}
+  maxHeadDistance: 1.25
